@@ -1,0 +1,76 @@
+Login Details:
+ 
+custid     uname    pass
+001 	   sam	      @#4
+002        ram 	    $%^
+003        roc	    &*(
+004        sid      $^5
+005        ted      ^5*
+
+Customer details:
+
+custid     Name    mobnum    Dob
+001 	   sam	   4567891   2/2/98
+002        ram 	   7567891   5/2/98 
+003        roc	   5567890   6/2/88
+004        sid     7567897   8/2/88 
+005        ted     1567898   2/12/98
+
+Bus details:
+
+Busno   Buscapacity    Bustype    Travelsid   Routenum
+401      35               AC        241       15c
+402      45               AC        242       89x
+403      46           semi sleeper  343       78d
+404      55            sleeper      455       47d
+
+Travelsdetails:
+
+Travelsid  Travelname   Phnum     Address  
+341        Kpn         55739844   xyx
+342        Kkr         12874915   yzx
+343        parveen     53347445   xye
+344        Sblt        46434858   yxx
+
+Routedetails:
+
+Routenum   From        To      Distance
+47D        chennai   madurai    530
+15c        chennai   trichy     300
+78d        bangalore trichy     600
+89x        madurai   mumbai     1000
+
+Bookingdetails:
+
+Bookingid  cid  passengername seatno  age   gender  date
+6701       001  sid            15      22   male    04-10-2018
+5702       002  ted            12      25   male    04-10-2018
+6783       003  ram            34      28   male    04-10-2018
+8784       004  roc            35      29   male    04-10-2018
+
+Cancellation:
+
+Bookingid   timeofcancel    seatnum
+6701        6.58pm           51
+5702        7.00pm           25
+
+Travelledtoday:
+
+Date      Name 
+
+04/5/18   sid
+04/5/18   ted
+
+
+Frequentlytravelled:
+
+Bookingid    numoftimestravelled  
+6783          5
+8784          2
+
+
+
+
+
+
+  		
